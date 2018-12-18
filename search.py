@@ -21,14 +21,11 @@ def locationSearch(inputList, outPutFile):
             continue
 
         try:
-            elems = browser.find_elements_by_class_name('yYlJEf L48Cpd').get_attribute('href')
+            elems = browser.find_element_by_class_name('yYlJEf').get_attribute('href')
             print(elems)
-            counter = 0
-            for j in elems:
-                if counter > 20:
-                    break
-                if elems.find('maps') == -1:
-                    outList.append(elems)
+            if elems.find('maps') == -1:
+                outList.append(elems)
+
         except Exception:
             continue
 
