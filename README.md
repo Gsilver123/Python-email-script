@@ -7,6 +7,7 @@ To run code, must have:
 -Python3
 -Selenium
 -bs4
+-requests
 -Internet connection
 
 To run code through terminal:
