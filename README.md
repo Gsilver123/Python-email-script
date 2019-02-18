@@ -5,6 +5,8 @@ compiles a list and then scrapes emails from individual websites that offer emai
 To run code, must have: 
 -Chrome Driver, change location in code for your local machine
 -Python3
+-Selenium
+-bs4
 -Internet connection
 
 To run code through terminal:
